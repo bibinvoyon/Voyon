@@ -1,0 +1,317 @@
+{
+	"info": {
+		"_postman_id": "4d77fc47-57ee-40f3-beaa-63e26558fc29",
+		"name": "Voyon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Dashboard",
+			"item": [
+				{
+					"name": "Announcement",
+					"item": [
+						{
+							"name": "Get",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://voyonhrmsdev.azurewebsites.net/m/api/dashboard/GetAnnouncement?companyId=1&employeeId=68&date=2/26/2021",
+									"protocol": "https",
+									"host": [
+										"voyonhrmsdev",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"m",
+										"api",
+										"dashboard",
+										"GetAnnouncement"
+									],
+									"query": [
+										{
+											"key": "companyId",
+											"value": "1"
+										},
+										{
+											"key": "employeeId",
+											"value": "68"
+										},
+										{
+											"key": "date",
+											"value": "2/26/2021"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Events",
+					"item": [
+						{
+							"name": "New Request",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://voyonhrmsdev.azurewebsites.net/m/api/dashboard/GetEvents?companyId=1&employeeId=68&date=2/26/2021",
+									"protocol": "https",
+									"host": [
+										"voyonhrmsdev",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"m",
+										"api",
+										"dashboard",
+										"GetEvents"
+									],
+									"query": [
+										{
+											"key": "companyId",
+											"value": "1"
+										},
+										{
+											"key": "employeeId",
+											"value": "68"
+										},
+										{
+											"key": "date",
+											"value": "2/26/2021"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Birthdays",
+					"item": [
+						{
+							"name": "New Request",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://voyonhrmsdev.azurewebsites.net/m/api/dashboard/GetBirthdays?companyId=1&date=2/28/2021",
+									"protocol": "https",
+									"host": [
+										"voyonhrmsdev",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"m",
+										"api",
+										"dashboard",
+										"GetBirthdays"
+									],
+									"query": [
+										{
+											"key": "companyId",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "2/28/2021"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Holidays",
+					"item": [
+						{
+							"name": "New Request",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://voyonhrmsdev.azurewebsites.net/m/api/dashboard/GetHolidays?companyId=1&employeeId=34&date=2/26/2021",
+									"protocol": "https",
+									"host": [
+										"voyonhrmsdev",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"m",
+										"api",
+										"dashboard",
+										"GetHolidays"
+									],
+									"query": [
+										{
+											"key": "companyId",
+											"value": "1"
+										},
+										{
+											"key": "employeeId",
+											"value": "34"
+										},
+										{
+											"key": "date",
+											"value": "2/26/2021"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Team",
+					"item": [
+						{
+							"name": "New Request",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://voyonhrmsdev.azurewebsites.net/m/api/dashboard/GetTeams?employeeId=35",
+									"protocol": "https",
+									"host": [
+										"voyonhrmsdev",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"m",
+										"api",
+										"dashboard",
+										"GetTeams"
+									],
+									"query": [
+										{
+											"key": "employeeId",
+											"value": "35"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Employee Info",
+					"item": [
+						{
+							"name": "New Request",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://voyonhrmsdev.azurewebsites.net/m/api/dashboard/GetEmployeeInfo?employeeId=34&date=2/26/2021",
+									"protocol": "https",
+									"host": [
+										"voyonhrmsdev",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"m",
+										"api",
+										"dashboard",
+										"GetEmployeeInfo"
+									],
+									"query": [
+										{
+											"key": "employeeId",
+											"value": "34"
+										},
+										{
+											"key": "date",
+											"value": "2/26/2021"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"UserName\":\"Sarin\",\"Password\":\"Nihara@2020\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:44360/m/api/Login/LoginUser",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "44360",
+							"path": [
+								"m",
+								"api",
+								"Login",
+								"LoginUser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Token Refresh",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"UserName\":\"Sarin\",\"Token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE2MTQzMTcyNTAsImV4cCI6MTYxNDkyMjA1MCwiaWF0IjoxNjE0MzE3MjUwfQ.21XuV7L3sEG8TgCTLdMxsa1I3z-59aFlCpubeJBtPoA\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:44360/m/api/Login/RefreshToken",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "44360",
+							"path": [
+								"m",
+								"api",
+								"Login",
+								"RefreshToken"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
